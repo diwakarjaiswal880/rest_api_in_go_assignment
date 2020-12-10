@@ -27,7 +27,7 @@ var err error
 
 func main() {
 	// DB Setup
-	db, err = sql.Open("mysql", "root:Diwakar@123@(127.0.0.1:3306)/store?parseTime=true")
+	db, err = sql.Open("mysql", "root:password@(127.0.0.1:3306)/store?parseTime=true")
 	if err != nil {
 		panic(err.Error())
 	}
